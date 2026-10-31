@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-swathapi-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://swathapi.com/
+Swath API provides AI‑native storm intelligence by verifying hail and damaging wind events against NOAA radar and NWS storm reports. It offers a REST API that returns every affected property, enriched with parcel data, and can fire webhooks when storms cross a defined area. Free API keys are issued in seconds, and developers can explore the service via comprehensive documentation, a developer portal, and example guides.
+
+**Areas:** Company · API · Weather · Storm · AI · NOAA
+
+## swathapi-com on APIs.io
+
+Everything profiled for swathapi-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/swathapi-com/](https://apis.io/providers/swathapi-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [swathapi-com Billing API](https://apis.io/apis/swathapi-com/swathapi-com-billing-api/) — The Billing API from swathapi-com — 1 operation(s) for billing.
+- [swathapi-com Monitors API](https://apis.io/apis/swathapi-com/swathapi-com-monitors-api/) — The Monitors API from swathapi-com — 1 operation(s) for monitors.
+- [swathapi-com Property API](https://apis.io/apis/swathapi-com/swathapi-com-property-api/) — The Property API from swathapi-com — 1 operation(s) for property.
+- [swathapi-com Signup API](https://apis.io/apis/swathapi-com/swathapi-com-signup-api/) — The Signup API from swathapi-com — 1 operation(s) for signup.
+- [swathapi-com Storms API](https://apis.io/apis/swathapi-com/swathapi-com-storms-api/) — The Storms API from swathapi-com — 3 operation(s) for storms.
+- [swathapi-com Swaths API](https://apis.io/apis/swathapi-com/swathapi-com-swaths-api/) — The Swaths API from swathapi-com — 6 operation(s) for swaths.
+- [swathapi-com Usage API](https://apis.io/apis/swathapi-com/swathapi-com-usage-api/) — The Usage API from swathapi-com — 1 operation(s) for usage.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Swathapi Com Agentic Access](https://apis.io/agentic-access/swathapi-com/swathapi-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Monitor](https://apis.io/schemas/swathapi-com/swathapi-com-monitor/)
+- [Property](https://apis.io/schemas/swathapi-com/swathapi-com-property/)
+- [ReportQuote](https://apis.io/schemas/swathapi-com/swathapi-com-report-quote/)
+- [StormSwath](https://apis.io/schemas/swathapi-com/swathapi-com-storm-swath/)
+- [SwathDetail](https://apis.io/schemas/swathapi-com/swathapi-com-swath-detail/)
+- [SwathReport](https://apis.io/schemas/swathapi-com/swathapi-com-swath-report/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Swathapi Com Context](https://apis.io/jsonld/swathapi-com/swathapi-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [swathapi-com API Rules](https://apis.io/rules/swathapi-com/swathapi-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Swathapi Com Authentication](https://apis.io/security/swathapi-com/swathapi-com-authentication/)
+- [Swathapi Com Domain Security](https://apis.io/security/swathapi-com/swathapi-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Swathapi Com Scopes](https://apis.io/scopes/swathapi-com/swathapi-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Swathapi Com Plans Pricing](https://apis.io/plans/swathapi-com/swathapi-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Swathapi Com Rate Limits](https://apis.io/rate-limits/swathapi-com/swathapi-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://swathapi.com/)
+- [Documentation](https://swathapi.com/docs)
+- [Getting started](https://swathapi.com/guide)
+- [API reference](https://swathapi.com/docs)
+- [Pricing](https://swathapi.com/pricing)
+- [Sign up](https://swathapi.com/signup)
+- [Support](https://swathapi.com/support)
+- [Terms of service](https://swathapi.com/terms)
+- [Privacy policy](https://swathapi.com/)
+- [Status](https://swathapi.com/status)
+
+## API Evangelist rating
+
+**Kin Score 66.1** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 44.2 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 53.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/swathapi-com/](https://apis.io/providers/swathapi-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for swathapi-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/swathapi-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
